@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="DS-数组, Alexandermucc">
-    <meta name="description" content="">
+    <meta name="keywords" content="DS-数组008-和大于等于target的最短子数组, Alexandermucc">
+    <meta name="description" content="题目描述
+给定一个含有 n 个正整数的数组和一个正整数 target 。
+找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>DS-数组 | Alexandermucc</title>
+    <title>DS-数组008-和大于等于target的最短子数组 | Alexandermucc</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -324,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">DS-数组</h1>
+                    <h1 class="description center-align post-title">DS-数组008-和大于等于target的最短子数组</h1>
                 </div>
             </div>
         </div>
@@ -474,7 +476,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-19
+                    2022-03-20
                 </div>
                 
 
@@ -483,7 +485,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    367
                 </div>
                 
 
@@ -505,7 +507,36 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><blockquote>
+<p>给定一个含有 n 个<strong>正整数</strong>的数组和一个<strong>正整数</strong> target 。</p>
+<p>找出该数组中<strong>满足其和 ≥ target</strong> 的<strong>长度最小</strong>的 <strong>连续子数组</strong> [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。</p>
+<p>示例 1：</p>
+<p>输入：target &#x3D; 7, nums &#x3D; [2,3,1,2,4,3]<br>输出：2<br>解释：子数组 [4,3] 是该条件下的长度最小的子数组。<br>示例 2：</p>
+<p>输入：target &#x3D; 4, nums &#x3D; [1,4,4]<br>输出：1<br>示例 3：</p>
+<p>输入：target &#x3D; 11, nums &#x3D; [1,1,1,1,1,1,1,1]<br>输出：0</p>
+</blockquote>
+<h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><ol>
+<li>题目要求是 正整数，并且数组也为正整数，可以知道求和结果肯定比之前求和的结果大，所以可以使用双指针，从头开始，求和如果比这个target大则进行减法，否则则进行加法</li>
+<li>使用2个指针指向首元素</li>
+<li>依次包裹这个数组，相当于他的子数列。例如<code>数组为【1，2，3，4】 target=2，i=0,j=1</code>则<code>[1,2]</code>为他的子数列，但是不满足该条件比target大，所以需要将<code>1</code>剔除，然后<code>[2]</code>就是满足条件</li>
+</ol>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-java"><code class="language-java">    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">minSubArrayLen</span><span class="token punctuation">(</span><span class="token keyword">int</span> target<span class="token punctuation">,</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 用双指针</span>
+        <span class="token keyword">int</span> result <span class="token operator">=</span> Integer<span class="token punctuation">.</span>MAX_VALUE<span class="token punctuation">;</span>
+
+        <span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> nums<span class="token punctuation">.</span>length <span class="token operator">&amp;&amp;</span> i <span class="token operator">&lt;=</span> j<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            sum <span class="token operator">+=</span> nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;=</span> j <span class="token operator">&amp;&amp;</span> sum <span class="token operator">>=</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                result <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> j <span class="token operator">-</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                sum <span class="token operator">-=</span> nums<span class="token punctuation">[</span>i<span class="token operator">++</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> result <span class="token operator">==</span> Integer<span class="token punctuation">.</span>MAX_VALUE <span class="token operator">?</span> <span class="token number">0</span> <span class="token operator">:</span> result<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
                 
             </div>
             <hr/>
@@ -531,7 +562,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://alexandermucc.github.io/2022/03/19/ds-shu-zu/">https://alexandermucc.github.io/2022/03/19/ds-shu-zu/</a>
+                    <a href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/">https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -752,13 +783,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/03/19/ds-shu-zu-006-pai-xu-shu-zu-zhong-liang-ge-shu-zi-zhi-he/">
+                <a href="/2022/03/22/ds-shu-zu-011-0-he-1-ge-shu-xiang-tong-de-zi-shu-zu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="DS-数组006-排序数组中两个数字之和">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="DS-数组011-0和1个数相同的子数组">
                         
-                        <span class="card-title">DS-数组006-排序数组中两个数字之和</span>
+                        <span class="card-title">DS-数组011-0和1个数相同的子数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -769,7 +800,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-19
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-22
                         </span>
                         <span class="publish-author">
                             
@@ -805,13 +836,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/03/18/ds-zheng-shu-005-dan-ci-chang-du-de-zui-da-cheng-ji/">
+                <a href="/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="DS-整数005-单词长度的最大乘积">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="DS-数组010-和为k的子数组">
                         
-                        <span class="card-title">DS-整数005-单词长度的最大乘积</span>
+                        <span class="card-title">DS-数组010-和为k的子数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -822,7 +853,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-18
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-20
                             </span>
                         <span class="publish-author">
                             
@@ -843,8 +874,8 @@
                         <span class="chip bg-color">数据结构与算法</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B4%E6%95%B0/">
-                        <span class="chip bg-color">整数</span>
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
                 </div>
@@ -1057,7 +1088,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">12k</span>
+                        class="white-color">16.3k</span>
             
             
             
