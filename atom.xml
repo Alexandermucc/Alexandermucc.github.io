@@ -6,7 +6,7 @@
   <link href="https://alexandermucc.github.io/atom.xml" rel="self"/>
   
   <link href="https://alexandermucc.github.io/"/>
-  <updated>2022-03-22T04:00:34.563Z</updated>
+  <updated>2022-03-22T08:43:34.487Z</updated>
   <id>https://alexandermucc.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DS-字符串015-字符串中所有变位词</title>
+    <link href="https://alexandermucc.github.io/2022/03/22/ds-zi-fu-chuan-015-zi-fu-chuan-zhong-suo-you-bian-wei-ci/"/>
+    <id>https://alexandermucc.github.io/2022/03/22/ds-zi-fu-chuan-015-zi-fu-chuan-zhong-suo-you-bian-wei-ci/</id>
+    <published>2022-03-22T08:42:34.000Z</published>
+    <updated>2022-03-22T08:43:34.487Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;给定两个字符串 s 和 p，找到 s 中所有 p 的 变位词</summary>
+        
+      
+    
+    
+    
+    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="字符串" scheme="https://alexandermucc.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>DS-数组013-二维子矩阵的和</title>
@@ -462,7 +488,7 @@
     <link href="https://alexandermucc.github.io/2022/03/17/ds-zi-fu-chuan-014-zi-fu-chuan-zhong-de-bian-wei-ci/"/>
     <id>https://alexandermucc.github.io/2022/03/17/ds-zi-fu-chuan-014-zi-fu-chuan-zhong-de-bian-wei-ci/</id>
     <published>2022-03-17T06:42:34.000Z</published>
-    <updated>2022-03-18T13:32:51.580Z</updated>
+    <updated>2022-03-22T06:01:56.372Z</updated>
     
     
       
@@ -530,36 +556,6 @@
     
     
     <category term="书籍" scheme="https://alexandermucc.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
-    
-    <category term="Java" scheme="https://alexandermucc.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java学习视频资料</title>
-    <link href="https://alexandermucc.github.io/2022/03/16/java-xue-xi-shi-pin-zi-liao/"/>
-    <id>https://alexandermucc.github.io/2022/03/16/java-xue-xi-shi-pin-zi-liao/</id>
-    <published>2022-03-16T03:37:39.000Z</published>
-    <updated>2022-03-16T03:49:54.427Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;工作十几年的Java程序员来回答一下。&lt;/p&gt;
-&lt;p&gt;有一说一，培训机构的视频有利有弊：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;利：适合零基础小白入门。&lt;/li&gt;
-&lt;li&gt;利：质量肯定是错不了的，相当于买东西之前先让你试吃、试用，肯定要用最好的对吧，否则会砸了自己的招牌。&lt;/li&gt;
-&lt;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://alexandermucc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
     
     <category term="Java" scheme="https://alexandermucc.github.io/tags/Java/"/>
     

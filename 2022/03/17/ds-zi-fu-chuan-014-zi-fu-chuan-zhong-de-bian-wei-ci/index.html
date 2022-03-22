@@ -8,7 +8,8 @@
     <meta name="description" content="[剑指 Offer II 014]字符串中的变位词
 变位词：指组成各个单词的字母以及每个字母出现的次数完全相同，只是字母的排列顺序不同。例如pots,stop,tops就是一组变位词。
 
-题目描述//给定两个字符串 s1 和 s2，写一个函">
+题目描述
+给定两个字符串 s1 和 s2，写一个函数">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -482,14 +483,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    538
+                    685
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -507,41 +508,13 @@
                 <h2 id="剑指-Offer-II-014-字符串中的变位词"><a href="#剑指-Offer-II-014-字符串中的变位词" class="headerlink" title="[剑指 Offer II 014]字符串中的变位词"></a>[剑指 Offer II 014]字符串中的变位词</h2><blockquote>
 <p>变位词：指组成各个单词的字母以及每个字母出现的次数完全相同，只是字母的排列顺序不同。例如<code>pots,stop,tops</code>就是一组变位词。</p>
 </blockquote>
-<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的某个变位词。 </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// 换句话说，第一个字符串的排列之一是第二个字符串的 子串 。 </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// 示例 1： </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//输入: s1 = "ab" s2 = "eidbaooo"</span>
-<span class="token comment" spellcheck="true">//输出: True</span>
-<span class="token comment" spellcheck="true">//解释: s2 包含 s1 的排列之一 ("ba").</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// 示例 2： </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//输入: s1= "ab" s2 = "eidboaoo"</span>
-<span class="token comment" spellcheck="true">//输出: False</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// 提示： </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">// 1 &lt;= s1.length, s2.length &lt;= 10⁴ </span>
-<span class="token comment" spellcheck="true">// s1 和 s2 仅包含小写字母 </span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// </span>
-<span class="token comment" spellcheck="true">//</span>
-<span class="token comment" spellcheck="true">// 注意：本题与主站 567 题相同： https://leetcode-cn.com/problems/permutation-in-string/ </span>
-<span class="token comment" spellcheck="true">// Related Topics 哈希表 双指针 字符串 滑动窗口 👍 29 👎 0</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><blockquote>
+<p>给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的某个变位词。</p>
+<p>换句话说，第一个字符串的排列之一是第二个字符串的 子串 。</p>
+<p>示例 1：</p>
+<p>输入: s1 &#x3D; “ab” s2 &#x3D; “eidbaooo”<br>输出: True<br>解释: s2 包含 s1 的排列之一 (“ba”).<br>示例 2：</p>
+<p>输入: s1&#x3D; “ab” s2 &#x3D; “eidboaoo”<br>输出: False</p>
+</blockquote>
 <h3 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h3><p><code>基于双指针和哈希表</code><br>主要根据s1中出现的字符的次数与s2中子字符出现的次数相等则表示是变位词。</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4><ol>
 <li>首先给出s1字符串出现的次数<ol>
@@ -558,6 +531,8 @@
 <li>最后比较该哈希表中是否都为0则表示查询到了</li>
 </ol>
 <h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>通过<code>+1</code>的操作表示标记的字符，通过<code>-1</code>表示找到的字符。如果两者相等即结果为0则表示找到该变位词。</p>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><p>当字符串使用<code>toCharArray()</code>方法时，执行效率会变低，因为先将String对象转换为字符数组，然后遍历</p>
+<p>而直接用<code>str.length()</code>则会快很多，不需要经过字符串转换为字符数组</p>
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">checkInclusion</span><span class="token punctuation">(</span>String s1<span class="token punctuation">,</span> String s2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
 
@@ -593,6 +568,48 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>下面使用<code>toCharArray()</code>方式的执行效率慢</p>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">checkInclusion</span><span class="token punctuation">(</span>String s1<span class="token punctuation">,</span> String s2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>s1<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">></span> s2<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+        <span class="token comment" spellcheck="true">// 标记数组</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> flags <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span><span class="token number">26</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> s1<span class="token punctuation">.</span><span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment" spellcheck="true">//            flags[s1.charAt(i) - 'a'] += 1;</span>
+<span class="token comment" spellcheck="true">//            flags[s2.charAt(i) - 'a'] -= 1;</span>
+
+            flags<span class="token punctuation">[</span>s1<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">++</span><span class="token punctuation">;</span>
+            flags<span class="token punctuation">[</span>s2<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">--</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">isEmptyOfFlags</span><span class="token punctuation">(</span>flags<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">int</span> length <span class="token operator">=</span> s1<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> length<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> s2<span class="token punctuation">.</span><span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment" spellcheck="true">//            flags[s2.charAt(i) - 'a'] -= 1;</span>
+<span class="token comment" spellcheck="true">//            flags[s2.charAt(i - length) - 'a'] += 1;</span>
+            flags<span class="token punctuation">[</span>s2<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">--</span><span class="token punctuation">;</span>
+            flags<span class="token punctuation">[</span>s2<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i <span class="token operator">-</span> length<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">++</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">isEmptyOfFlags</span><span class="token punctuation">(</span>flags<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">boolean</span> <span class="token function">isEmptyOfFlags</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> flags<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> flag <span class="token operator">:</span> flags<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>flag <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -1133,7 +1150,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">16.3k</span>
+                        class="white-color">17.3k</span>
             
             
             
