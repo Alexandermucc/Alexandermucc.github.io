@@ -74,35 +74,6 @@
   </entry>
   
   <entry>
-    <title>DS-数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/22/ds-shu-zu-mo-ban/"/>
-    <id>https://alexandermucc.github.io/2022/03/22/ds-shu-zu-mo-ban/</id>
-    <published>2022-03-22T02:00:27.000Z</published>
-    <updated>2022-03-22T04:51:46.335Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="数据结构与算法" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="数组" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
     <title>DS-数组011-0和1个数相同的子数组</title>
     <link href="https://alexandermucc.github.io/2022/03/22/ds-shu-zu-011-0-he-1-ge-shu-xiang-tong-de-zi-shu-zu/"/>
     <id>https://alexandermucc.github.io/2022/03/22/ds-shu-zu-011-0-he-1-ge-shu-xiang-tong-de-zi-shu-zu/</id>
@@ -159,11 +130,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组010-和为k的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/</id>
+    <title>DS-数组009-乘积小于K的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:44.026Z</updated>
+    <updated>2022-03-20T07:33:55.887Z</updated>
     
     
       
@@ -171,7 +142,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个整数数组和一个整数 &lt;code&gt;k&lt;/code&gt;</summary>
+&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
         
       
     
@@ -187,11 +158,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组009-乘积小于K的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
+    <title>DS-数组010-和为k的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:55.887Z</updated>
+    <updated>2022-03-20T07:33:44.026Z</updated>
     
     
       
@@ -199,7 +170,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
+&lt;p&gt;给定一个整数数组和一个整数 &lt;code&gt;k&lt;/code&gt;</summary>
         
       
     
@@ -559,6 +530,36 @@
     
     
     <category term="书籍" scheme="https://alexandermucc.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+    <category term="Java" scheme="https://alexandermucc.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习视频资料</title>
+    <link href="https://alexandermucc.github.io/2022/03/16/java-xue-xi-shi-pin-zi-liao/"/>
+    <id>https://alexandermucc.github.io/2022/03/16/java-xue-xi-shi-pin-zi-liao/</id>
+    <published>2022-03-16T03:37:39.000Z</published>
+    <updated>2022-03-16T03:49:54.427Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;工作十几年的Java程序员来回答一下。&lt;/p&gt;
+&lt;p&gt;有一说一，培训机构的视频有利有弊：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;利：适合零基础小白入门。&lt;/li&gt;
+&lt;li&gt;利：质量肯定是错不了的，相当于买东西之前先让你试吃、试用，肯定要用最好的对吧，否则会砸了自己的招牌。&lt;/li&gt;
+&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://alexandermucc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
     <category term="Java" scheme="https://alexandermucc.github.io/tags/Java/"/>
     
