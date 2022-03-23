@@ -6,7 +6,7 @@
   <link href="https://alexandermucc.github.io/atom.xml" rel="self"/>
   
   <link href="https://alexandermucc.github.io/"/>
-  <updated>2022-03-22T08:43:34.487Z</updated>
+  <updated>2022-03-23T08:02:20.258Z</updated>
   <id>https://alexandermucc.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DS-字符串017-含有所有字符的最短字符串</title>
+    <link href="https://alexandermucc.github.io/2022/03/23/ds-zi-fu-chuan-017-han-you-suo-you-zi-fu-de-zui-duan-zi-fu-chuan/"/>
+    <id>https://alexandermucc.github.io/2022/03/23/ds-zi-fu-chuan-017-han-you-suo-you-zi-fu-de-zui-duan-zi-fu-chuan/</id>
+    <published>2022-03-23T08:02:34.000Z</published>
+    <updated>2022-03-23T08:02:20.258Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;给定两个字符串 s 和 t 。返回 s 中包含 t 的所有字符的最短子字符串。如果 s</summary>
+        
+      
+    
+    
+    
+    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="字符串" scheme="https://alexandermucc.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DS-字符串016-不含重复字符的最长子字符串</title>
+    <link href="https://alexandermucc.github.io/2022/03/23/ds-zi-fu-chuan-016-bu-han-chong-fu-zi-fu-de-zui-chang-zi-zi-fu-chuan/"/>
+    <id>https://alexandermucc.github.io/2022/03/23/ds-zi-fu-chuan-016-bu-han-chong-fu-zi-fu-de-zui-chang-zi-zi-fu-chuan/</id>
+    <published>2022-03-23T01:42:34.000Z</published>
+    <updated>2022-03-23T02:47:38.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;给定一个字符串 s ，请你找出其中不含有重复字符的 最长连续子字符串</summary>
+        
+      
+    
+    
+    
+    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="字符串" scheme="https://alexandermucc.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>DS-字符串015-字符串中所有变位词</title>
@@ -153,34 +205,6 @@
   </entry>
   
   <entry>
-    <title>DS-数组009-乘积小于K的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
-    <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:55.887Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
-        
-      
-    
-    
-    
-    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="数据结构与算法" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="数组" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
     <title>DS-数组008-和大于等于target的最短子数组</title>
     <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
     <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
@@ -237,6 +261,34 @@
   </entry>
   
   <entry>
+    <title>DS-数组009-乘积小于K的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
+    <published>2022-03-20T03:35:27.000Z</published>
+    <updated>2022-03-20T07:33:55.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
+        
+      
+    
+    
+    
+    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="数据结构与算法" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="数组" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>DS-数组007-数组中和为0的三个数</title>
     <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-007-shu-zu-zhong-he-wei-0-de-san-ge-shu/"/>
     <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-007-shu-zu-zhong-he-wei-0-de-san-ge-shu/</id>
@@ -269,7 +321,7 @@
     <link href="https://alexandermucc.github.io/2022/03/19/ds-zhang-wo-bu-shou-lian-de-ti-xing/"/>
     <id>https://alexandermucc.github.io/2022/03/19/ds-zhang-wo-bu-shou-lian-de-ti-xing/</id>
     <published>2022-03-19T03:46:17.000Z</published>
-    <updated>2022-03-22T03:09:35.916Z</updated>
+    <updated>2022-03-23T06:29:52.955Z</updated>
     
     
       
@@ -505,59 +557,6 @@
     
     
     <category term="Error" scheme="https://alexandermucc.github.io/tags/Error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo报ErrorSpanwnFailed</title>
-    <link href="https://alexandermucc.github.io/2022/03/16/hexo-bao-errorspanwnfailed/"/>
-    <id>https://alexandermucc.github.io/2022/03/16/hexo-bao-errorspanwnfailed/</id>
-    <published>2022-03-16T04:07:30.000Z</published>
-    <updated>2022-03-17T14:08:41.040Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Hexo部署出现错误-Error-Spawn-failed-解决方式&quot;&gt;&lt;a href=&quot;#Hexo部署出现错误-Error-Spawn-failed-解决方式&quot; class=&quot;headerlink&quot; title=&quot;Hexo部署出现错误 Error: Spawn</summary>
-        
-      
-    
-    
-    
-    <category term="博客" scheme="https://alexandermucc.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="hexo" scheme="https://alexandermucc.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java书籍阅读顺序</title>
-    <link href="https://alexandermucc.github.io/2022/03/16/java-shu-ji-yue-du-shun-xu/"/>
-    <id>https://alexandermucc.github.io/2022/03/16/java-shu-ji-yue-du-shun-xu/</id>
-    <published>2022-03-16T03:47:18.000Z</published>
-    <updated>2022-03-16T03:50:47.221Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天和大家说说学 Java 的读书路线。路线中的书籍我自己都看过，希望整理的这份读书路线，能帮大家少走弯路，对大家学 Java 有个参考。&lt;/p&gt;
-&lt;h2 id=&quot;初学乍练&quot;&gt;&lt;a href=&quot;#初学乍练&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://alexandermucc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="书籍" scheme="https://alexandermucc.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
-    
-    <category term="Java" scheme="https://alexandermucc.github.io/tags/Java/"/>
     
   </entry>
   
