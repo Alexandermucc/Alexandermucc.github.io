@@ -6,7 +6,7 @@
   <link href="https://alexandermucc.github.io/atom.xml" rel="self"/>
   
   <link href="https://alexandermucc.github.io/"/>
-  <updated>2022-03-23T08:02:20.258Z</updated>
+  <updated>2022-03-29T07:41:36.450Z</updated>
   <id>https://alexandermucc.github.io/</id>
   
   <author>
@@ -15,6 +15,83 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tech-Java基础-接口</title>
+    <link href="https://alexandermucc.github.io/2022/03/29/tech-java-ji-chu-jie-kou/"/>
+    <id>https://alexandermucc.github.io/2022/03/29/tech-java-ji-chu-jie-kou/</id>
+    <published>2022-03-29T07:38:09.000Z</published>
+    <updated>2022-03-29T07:41:36.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h3 id=&quot;接口的本质&quot;&gt;&lt;a href=&quot;#接口的本质&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="technique" scheme="https://alexandermucc.github.io/categories/technique/"/>
+    
+    
+    <category term="Java基础" scheme="https://alexandermucc.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tech-Java基础-继承</title>
+    <link href="https://alexandermucc.github.io/2022/03/29/tech-java-ji-chu-ji-cheng/"/>
+    <id>https://alexandermucc.github.io/2022/03/29/tech-java-ji-chu-ji-cheng/</id>
+    <published>2022-03-29T00:34:52.000Z</published>
+    <updated>2022-03-29T07:41:52.558Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h3 id=&quot;关于继承的小结&quot;&gt;&lt;a href=&quot;#关于继承的小结&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="technique" scheme="https://alexandermucc.github.io/categories/technique/"/>
+    
+    
+    <category term="Java基础" scheme="https://alexandermucc.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tech-mysql</title>
+    <link href="https://alexandermucc.github.io/2022/03/28/tech-mysql/"/>
+    <id>https://alexandermucc.github.io/2022/03/28/tech-mysql/</id>
+    <published>2022-03-28T08:35:00.000Z</published>
+    <updated>2022-03-28T09:53:54.425Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="technique" scheme="https://alexandermucc.github.io/categories/technique/"/>
+    
+    
+    <category term="MySQL" scheme="https://alexandermucc.github.io/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>DS-字符串017-含有所有字符的最短字符串</title>
@@ -205,11 +282,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组008-和大于等于target的最短子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
+    <title>DS-数组009-乘积小于K的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T04:14:27.969Z</updated>
+    <updated>2022-03-20T07:33:55.887Z</updated>
     
     
       
@@ -217,7 +294,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个含有 n</summary>
+&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
         
       
     
@@ -261,11 +338,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组009-乘积小于K的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
+    <title>DS-数组008-和大于等于target的最短子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:55.887Z</updated>
+    <updated>2022-03-20T04:14:27.969Z</updated>
     
     
       
@@ -273,7 +350,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
+&lt;p&gt;给定一个含有 n</summary>
         
       
     
@@ -478,85 +555,6 @@
     <category term="数据结构与算法" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     <category term="整数" scheme="https://alexandermucc.github.io/tags/%E6%95%B4%E6%95%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DS-整数001-整数除法</title>
-    <link href="https://alexandermucc.github.io/2022/03/18/ds-zheng-shu-001-zheng-shu-chu-fa/"/>
-    <id>https://alexandermucc.github.io/2022/03/18/ds-zheng-shu-001-zheng-shu-chu-fa/</id>
-    <published>2022-03-18T12:08:21.000Z</published>
-    <updated>2022-03-18T13:31:53.989Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定两个整数 &lt;code&gt;a&lt;/code&gt; 和 &lt;code&gt;b&lt;/code&gt; ，求它们的除法的商</summary>
-        
-      
-    
-    
-    
-    <category term="LeetCode" scheme="https://alexandermucc.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="数据结构与算法" scheme="https://alexandermucc.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="整数" scheme="https://alexandermucc.github.io/tags/%E6%95%B4%E6%95%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo主题matery中代码大括号显示不正确</title>
-    <link href="https://alexandermucc.github.io/2022/03/17/hexo-zhu-ti-matery-zhong-dai-ma-da-gua-hao-xian-shi-bu-zheng-que/"/>
-    <id>https://alexandermucc.github.io/2022/03/17/hexo-zhu-ti-matery-zhong-dai-ma-da-gua-hao-xian-shi-bu-zheng-que/</id>
-    <published>2022-03-17T14:00:49.000Z</published>
-    <updated>2022-03-17T14:02:19.589Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;hexo主题matery中代码大括号显示不正确&quot;&gt;&lt;a href=&quot;#hexo主题matery中代码大括号显示不正确&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="博客" scheme="https://alexandermucc.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="hexo" scheme="https://alexandermucc.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>windos端口被占用解决方法</title>
-    <link href="https://alexandermucc.github.io/2022/03/17/windos-duan-kou-bei-zhan-yong-jie-jue-fang-fa/"/>
-    <id>https://alexandermucc.github.io/2022/03/17/windos-duan-kou-bei-zhan-yong-jie-jue-fang-fa/</id>
-    <published>2022-03-17T12:07:02.000Z</published>
-    <updated>2022-03-17T12:16:22.522Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;问题出现&quot;&gt;&lt;a href=&quot;#问题出现&quot; class=&quot;headerlink&quot; title=&quot;问题出现&quot;&gt;&lt;/a&gt;问题出现&lt;/h2&gt;&lt;p&gt;当启动idea中 运行&lt;code&gt;SpringBoot&lt;/code&gt;项目出现&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Identify</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://alexandermucc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Error" scheme="https://alexandermucc.github.io/tags/Error/"/>
     
   </entry>
   
