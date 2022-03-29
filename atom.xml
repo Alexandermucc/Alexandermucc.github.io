@@ -282,11 +282,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组009-乘积小于K的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
+    <title>DS-数组008-和大于等于target的最短子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:55.887Z</updated>
+    <updated>2022-03-20T04:14:27.969Z</updated>
     
     
       
@@ -294,7 +294,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
+&lt;p&gt;给定一个含有 n</summary>
         
       
     
@@ -310,11 +310,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组008-和大于等于target的最短子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
+    <title>DS-数组009-乘积小于K的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-009-cheng-ji-xiao-yu-k-de-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T04:14:27.969Z</updated>
+    <updated>2022-03-20T07:33:55.887Z</updated>
     
     
       
@@ -322,7 +322,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个含有 n</summary>
+&lt;p&gt;给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k</summary>
         
       
     
