@@ -310,11 +310,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组010-和为k的子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/</id>
+    <title>DS-数组008-和大于等于target的最短子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T07:33:44.026Z</updated>
+    <updated>2022-03-20T04:14:27.969Z</updated>
     
     
       
@@ -322,7 +322,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个整数数组和一个整数 &lt;code&gt;k&lt;/code&gt;</summary>
+&lt;p&gt;给定一个含有 n</summary>
         
       
     
@@ -338,11 +338,11 @@
   </entry>
   
   <entry>
-    <title>DS-数组008-和大于等于target的最短子数组</title>
-    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/"/>
-    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-008-he-da-yu-deng-yu-target-de-zui-duan-zi-shu-zu/</id>
+    <title>DS-数组010-和为k的子数组</title>
+    <link href="https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/"/>
+    <id>https://alexandermucc.github.io/2022/03/20/ds-shu-zu-010-he-wei-k-de-zi-shu-zu/</id>
     <published>2022-03-20T03:35:27.000Z</published>
-    <updated>2022-03-20T04:14:27.969Z</updated>
+    <updated>2022-03-20T07:33:44.026Z</updated>
     
     
       
@@ -350,7 +350,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;给定一个含有 n</summary>
+&lt;p&gt;给定一个整数数组和一个整数 &lt;code&gt;k&lt;/code&gt;</summary>
         
       
     
